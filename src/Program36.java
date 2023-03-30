@@ -3,7 +3,6 @@ public class Program36 {
     //Merge Sort
     private static void concore(int arr[], int si, int mid,int ei) {
         int merged[] = new int[ei-si + 1];
-
         int idx1 = si;
         int idx2 = mid+1;
         int x=0;
